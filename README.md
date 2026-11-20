@@ -4,7 +4,7 @@ Author: Mario Sengwein <br>
 LBS Eibiswald | 2APC
 
 Nur eine Demo Anwendung...<br>
-Hier könnte die Anwendung erklärt werden...
+Hier sollte die Anwendung erklärt werden...
 
 ## Installation
 
