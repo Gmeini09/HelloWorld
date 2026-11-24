@@ -1,44 +1,58 @@
 <a id="readme-top"></a>
 # HelloWorld
-Author: Mario Sengwein <br>
-LBS Eibiswald | 2APC
 
-Nur eine Demo Anwendung...<br>
-Hier sollte die Anwendung erklärt werden...
+Author: Philipp Gmeinbauer <br>
+LBS Eibiswald | 2aAPC
+
+Die erste Java-Übung: Ein kleines Konsolenprogramm, das eine Begrüßung ausgibt
+und anschließend mit einer `for`-Schleife die Zahlen von 1 bis 5 hochzählt.
 
 ## Installation
 
+Voraussetzungen: Java JDK und IntelliJ IDEA.
+
 ```cmd
-
-git checkout origin/master
-
+git clone https://github.com/Gmeini09/HelloWorld.git
 ```
+
+Danach das Projekt in IntelliJ über **File → Open** öffnen.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Verwendung
+
 Technologien im Einsatz:
 [![Java][java.com]][java-url]
 
-```php
+`Main.java` öffnen und auf den grünen Run-Pfeil klicken.
 
-//some source code configuration
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello and welcome!");
 
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("i = " + i);
+        }
+    }
+}
 ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Screenshots
 
-[![Screen Shot][product-screenshot]](https://example.com)
+[![Screen Shot][product-screenshot]](program.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [java.com]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
 [java-url]: https://www.java.com/de/
 [product-screenshot]: program.png
